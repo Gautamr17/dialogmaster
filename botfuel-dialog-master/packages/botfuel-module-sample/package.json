@@ -1,0 +1,21 @@
+{
+  "name": "botfuel-module-sample",
+  "version": "11.0.0",
+  "author": "sysadmin@botfuel.io",
+  "description": "Sample botfuel module to extend Botfuel Dialog",
+  "license": "Apache-2.0",
+  "scripts": {
+    "style": "eslint src tests index.js",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "botfuel-dialog": "latest"
+  },
+  "devDependencies": {
+    "botfuel-dialog": "latest"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "gitHead": "3a1007084d99a219280c317da90b666561b11984"
+}

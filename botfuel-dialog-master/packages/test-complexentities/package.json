@@ -1,0 +1,20 @@
+{
+  "name": "test-complexentities",
+  "version": "11.0.0",
+  "private": true,
+  "author": "sysadmin@botfuel.io",
+  "description": "Sample bot using botfuel-dialog and illustrating complex dialogs entities",
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "botfuel-run",
+    "clean": "botfuel-clean",
+    "test": "jest",
+    "style": "eslint src && eslint tests"
+  },
+  "dependencies": {
+    "botfuel-dialog": "latest"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}

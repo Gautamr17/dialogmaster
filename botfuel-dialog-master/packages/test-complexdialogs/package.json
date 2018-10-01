@@ -1,0 +1,21 @@
+{
+  "name": "sample-botfuel-dialog-complexdialogs",
+  "version": "11.5.0",
+  "private": true,
+  "author": "sysadmin@botfuel.io",
+  "description": "Sample bot using botfuel-dialog and illustrating complex dialogs",
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "botfuel-run shell-config.js",
+    "clean": "botfuel-clean",
+    "test": "jest",
+    "style": "eslint src && eslint tests"
+  },
+  "dependencies": {
+    "botfuel-dialog": "latest",
+    "lodash": "^4.17.10"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}
